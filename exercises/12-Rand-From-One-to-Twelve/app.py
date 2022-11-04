@@ -1,7 +1,7 @@
 import random
 
-def get_randomInt():
+def get_randomInt(a,b):
 	# Your code here
-	return None
+	return random.randrange(a,b)
 
-print(get_randomInt())
+print(get_randomInt(1,13))
